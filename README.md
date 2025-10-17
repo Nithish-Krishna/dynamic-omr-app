@@ -67,7 +67,9 @@ Below is a simplified walkthrough of how the app works, along with key interface
 Displays a list of all created exams.  
 Teachers can add new exams or access existing ones.
 
-![Exam Details](mockups/exam_details.png)
+<p align="center">
+  <img src="mockups/exam_details.png" alt="Exam Details" width="350"/>
+</p>
 
 ---
 
@@ -80,7 +82,9 @@ Teachers input essential exam details such as:
 
 The app uses an API call to automatically generate a corresponding OMR template.
 
-![Create Exam](mockups/create_exam.png)
+<p align="center">
+  <img src="mockups/create_exam.png" alt="Create Exam" width="350"/>
+</p>
 
 ---
 
@@ -88,7 +92,9 @@ The app uses an API call to automatically generate a corresponding OMR template.
 Teachers define correct answers (A/B/C/D) for all questions through an interactive interface.  
 Supports multiple-correct options for complex question patterns.
 
-![Answer Key](mockups/answer_key.png)
+<p align="center">
+  <img src="mockups/answer_key.png" alt="Answer Key" width="350"/>
+</p>
 
 ---
 
@@ -96,7 +102,9 @@ Supports multiple-correct options for complex question patterns.
 Teachers enter a student’s name and scan their OMR sheet using the device camera.  
 Aspose API detects bubbled responses, matches them with the answer key, and stores results securely via Hive.
 
-![Scan Screen](mockups/scan_screen.png)
+<p align="center">
+  <img src="mockups/scan_screen.png" alt="Scan Screen" width="350"/>
+</p>
 
 ---
 
@@ -104,7 +112,9 @@ Aspose API detects bubbled responses, matches them with the answer key, and stor
 Displays all students’ names, total marks, percentages, and question-wise accuracy.  
 Includes **copy**, **CSV/PDF export**, and **share** options for quick result dissemination.
 
-![Student Details](mockups/student_details.png)
+<p align="center">
+  <img src="mockups/student_details.png" alt="Student Details" width="350"/>
+</p>
 
 ---
 
@@ -115,7 +125,9 @@ A detailed breakdown per student showing:
 - Auto-evaluated result (✅/❌)  
 - Editable answers for teacher corrections or disputes  
 
-![Student Analysis](mockups/student_analysis.png)
+<p align="center">
+  <img src="mockups/student_analysis.png" alt="Student Analysis" width="350"/>
+</p>
 
 ---
 
@@ -125,7 +137,9 @@ Teachers can:
 - Export class-level reports  
 - Delete outdated exams or results  
 
-![Edit Answer](mockups/edit_answer.png)
+<p align="center">
+  <img src="mockups/edit_answer.png" alt="Edit Answer" width="350"/>
+</p>
 
 ---
 
