@@ -1,13 +1,19 @@
 <a id="readme-top"></a>
+![Dynamic OMR App Banner](images/banner.png)
+
 
 <!-- PROJECT HEADER -->
 <br />
 <div align="center">
 
   <!-- Optional placeholder icon (replace later with a neutral app icon if you wish) -->
-  <img src="images/app_icon.png" alt="App Icon" width="80" height="80">
+
 
   <h3 align="center">Dynamic OMR App</h3>
+  <p align="center">
+  📱 Flutter | ☁️ Aspose OMR SDK | 💾 Hive Storage | 🔍 Exam Evaluation System
+</p>
+
 
   <p align="center">
     A Flutter-based <b>OMR Examination Management App</b> for Teachers to Create, Scan, and Evaluate Exams Digitally.
@@ -16,6 +22,8 @@
     <a href="https://www.figma.com/proto/I88m9x7bwREVdZ7QT6DlXa/OMRApp?node-id=1-2038&t=ScUKmRk">🎥 View Demo (Figma Prototype)</a>
     ·
     <a href="https://github.com/Nithish-Krishna/dynamic-omr-app/issues">Report Issue</a>
+    <br>
+    <sub>(Opens in Figma – no sign-in required)</sub>
   </p>
 
 </div>
