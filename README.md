@@ -13,7 +13,7 @@
     A Flutter-based <b>OMR Examination Management App</b> for Teachers to Create, Scan, and Evaluate Exams Digitally.
     <br />
     <br />
-    <a href="#">🎥 View Demo (Figma Prototype)</a>
+    <a href="https://www.figma.com/proto/I88m9x7bwREVdZ7QT6DlXa/OMRApp?node-id=1-2038&t=ScUKmRk">🎥 View Demo (Figma Prototype)</a>
     ·
     <a href="https://github.com/Nithish-Krishna/dynamic-omr-app/issues">Report Issue</a>
   </p>
