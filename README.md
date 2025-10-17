@@ -220,11 +220,14 @@ Junior Software Developer @ Vidwath
 
 ## 🗒️ Notes
 
-> 🔒 *This project was developed as part of a company initiative.  
-Source code is private and shared here only for portfolio demonstration.*  
+> 🔒 **Confidentiality Notice**  
+> This project was developed as part of a company initiative at *Vidwath Innovative Solutions Pvt. Ltd.*  
+> The source code remains **private** and is shared here solely for **portfolio and demonstration purposes**.
 
-> 🧠 *All API keys, configurations, and assets have been omitted for confidentiality.*
+> 🧠 **Security Disclaimer**  
+> All API keys, configurations, credentials, and proprietary assets have been **removed or masked** to maintain confidentiality and comply with company policies.
 
 ---
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
