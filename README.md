@@ -59,45 +59,73 @@ This app automates that process using **Aspose.OMR Cloud SDK**, allowing teacher
 
 ## ⚙️ Project Flow
 
-Below is a simplified walkthrough of how the app works:
+Below is a simplified walkthrough of how the app works, along with key interface mockups:
 
-1. **🏠 Exams Screen (Home)**  
-   Displays a list of all created exams.  
-   Teachers can add new exams or access existing ones.  
-   *(Placeholder: ![Exam Screen](images/exam_screen.png))*
+---
 
-2. **📝 Create Exam**  
-   Teachers input exam details such as:  
-   - Exam name  
-   - Class name  
-   - Exam date  
-   - Number of questions & columns  
-   The app uses an API call to generate a matching OMR template.  
-   *(Placeholder: ![Create Exam](images/create_exam.png))*
+### 🏠 1. Exams Screen (Home)
+Displays a list of all created exams.  
+Teachers can add new exams or access existing ones.
 
-3. **🔑 Answer Key Setup**  
-   Teachers select correct answers (A/B/C/D) for all questions via an intuitive interface.  
-   Multiple answers per question are supported for multiple-correct patterns.  
-   *(Placeholder: ![Answer Key](images/answer_key.png))*
+![Exam Details](mockups/exam_details.png)
 
-4. **📷 Scan OMR Sheets**  
-   Teachers enter a student name and scan the OMR sheet using the back camera.  
-   Aspose API detects bubbles, evaluates answers, and stores the data locally via Hive.  
-   *(Placeholder: ![Scan Page](images/scan_page.png))*
+---
 
-5. **📊 View Scores**  
-   Displays student names, scores, accuracy stats, and question breakdowns.  
-   Supports copying results for WhatsApp sharing and exporting to CSV/PDF.  
-   *(Placeholder: ![Results Screen](images/results_screen.png))*
+### 📝 2. Create Exam
+Teachers input essential exam details such as:
+- Exam name  
+- Class name  
+- Exam date  
+- Number of questions & columns  
 
-6. **📈 Student Analysis**  
-   Detailed view per student — including each question’s chosen option, expected answer, and correction tools for teacher override.  
-   *(Placeholder: ![Student Analysis](images/student_analysis.png))*
+The app uses an API call to automatically generate a corresponding OMR template.
 
-7. **🧾 Export & Manage**  
-   - Download OMR sheet templates for printing  
-   - Export class results  
-   - Delete old exams  
+![Create Exam](mockups/create_exam.png)
+
+---
+
+### 🔑 3. Answer Key Setup
+Teachers define correct answers (A/B/C/D) for all questions through an interactive interface.  
+Supports multiple-correct options for complex question patterns.
+
+![Answer Key](mockups/answer_key.png)
+
+---
+
+### 📷 4. Scan OMR Sheets
+Teachers enter a student’s name and scan their OMR sheet using the device camera.  
+Aspose API detects bubbled responses, matches them with the answer key, and stores results securely via Hive.
+
+![Scan Screen](mockups/scan_screen.png)
+
+---
+
+### 📊 5. View Scores
+Displays all students’ names, total marks, percentages, and question-wise accuracy.  
+Includes **copy**, **CSV/PDF export**, and **share** options for quick result dissemination.
+
+![Student Details](mockups/student_details.png)
+
+---
+
+### 📈 6. Student Analysis
+A detailed breakdown per student showing:
+- Question number  
+- Selected vs. Correct answer  
+- Auto-evaluated result (✅/❌)  
+- Editable answers for teacher corrections or disputes  
+
+![Student Analysis](mockups/student_analysis.png)
+
+---
+
+### 🧾 7. Export & Manage
+Teachers can:
+- Download printable OMR sheet templates  
+- Export class-level reports  
+- Delete outdated exams or results  
+
+![Edit Answer](mockups/edit_answer.png)
 
 ---
 
