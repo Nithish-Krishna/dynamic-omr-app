@@ -1,24 +1,27 @@
 <a id="readme-top"></a>
 
-<!-- PROJECT LOGO -->
+<!-- PROJECT HEADER -->
 <br />
 <div align="center">
-  <a href="https://github.com/Nithish-Krishna/dynamic-omr-app">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
 
-<h3 align="center">Dynamic OMR App</h3>
+  <!-- Optional placeholder icon (replace later with a neutral app icon if you wish) -->
+  <img src="images/app_icon.png" alt="App Icon" width="80" height="80">
+
+  <h3 align="center">Dynamic OMR App</h3>
 
   <p align="center">
-    A Flutter-based OMR Examination Management App for Teachers to Create, Scan, and Evaluate Exams Digitally
+    A Flutter-based <b>OMR Examination Management App</b> for Teachers to Create, Scan, and Evaluate Exams Digitally.
+    <br />
     <br />
     <a href="#">🎥 View Demo (Figma Prototype)</a>
     ·
     <a href="https://github.com/Nithish-Krishna/dynamic-omr-app/issues">Report Issue</a>
   </p>
+
 </div>
 
 ---
+
 
 ## 📘 About the Project
 
