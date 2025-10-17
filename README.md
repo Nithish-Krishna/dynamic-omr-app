@@ -52,7 +52,7 @@ It allows educators to **create OMR sheets, scan student responses, and generate
 
 ### 🎯 Core Purpose
 Teachers often spend hours evaluating answer sheets manually.  
-This app automates that process using **Aspose.OMR Cloud SDK**, allowing teachers to:
+This app automates that process using **.OMR Cloud SDK**, allowing teachers to:
 - Create custom OMR sheets for exams  
 - Set answer keys for objective tests  
 - Scan filled sheets via camera  
@@ -65,7 +65,7 @@ This app automates that process using **Aspose.OMR Cloud SDK**, allowing teacher
 * **Framework:** Flutter  
 * **Language:** Dart  
 * **Local Storage:** Hive (for caching & offline persistence)  
-* **SDK:** Aspose.OMR Cloud SDK for Dart  
+* **SDK:** .OMR Cloud SDK for Dart  
 * **IDE:** Android Studio  
 * **Architecture:** REST API–driven, cloud OMR recognition  
 
@@ -114,7 +114,7 @@ Supports multiple-correct options for complex question patterns.
 
 ### 📷 4. Scan OMR Sheets
 Teachers enter a student’s name and scan their OMR sheet using the device camera.  
-Aspose API detects bubbled responses, matches them with the answer key, and stores results securely via Hive.
+ API detects bubbled responses, matches them with the answer key, and stores results securely via Hive.
 
 <p align="center">
   <img src="mockups/scan_screen.png" alt="Scan Screen" width="350"/>
@@ -173,12 +173,13 @@ Teachers can:
 | Function | Description |
 |-----------|-------------|
 | **Generate OMR Template** | Creates dynamic OMR sheets (.png and .omr files) based on teacher inputs such as exam name, number of questions, and columns. |
-| **Poll Generation Result** | Periodically checks the Aspose API for the completion status of the OMR template generation task. |
-| **Recognize Filled OMR Sheet** | Sends scanned OMR images to the Aspose Recognize API to detect marked bubbles and return encoded response data. |
+| **Poll Generation Result** | Periodically checks the  API for the completion status of the OMR template generation task. |
+| **Recognize Filled OMR Sheet** | Sends scanned OMR images to the  Recognize API to detect marked bubbles and return encoded response data. |
 | **Poll Recognition Result** | Repeatedly polls the recognition endpoint until the OMR scan results are ready. |
 | **Save Recognition / Generation Files** | Decodes, processes, and saves generated or recognized files (OMR, PNG, CSV) to local storage using Hive. |
 
-All API interactions are performed securely through the **Aspose.OMR Cloud SDK for Dart**, with final results stored locally for offline access and report generation.
+All API interactions are performed securely through the [**Aspose.OMR Cloud SDK for Dart**](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dart), with final results stored locally for offline access and report generation.
+
 
 
 ---
