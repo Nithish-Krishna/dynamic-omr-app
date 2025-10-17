@@ -22,15 +22,18 @@
 
 ## 📘 About the Project
 
-The **Dynamic OMR App** is a Flutter mobile application designed to simplify exam evaluation for teachers.  
-It enables educators to **create OMR sheets, scan students’ responses, and generate results** with just a few taps — all through a single integrated interface.
+The **Dynamic OMR App** is a Flutter-based mobile application built to streamline exam evaluation for teachers.  
+It allows educators to **create OMR sheets, scan student responses, and generate detailed performance reports** — all from a single, intuitive interface.
 
-> ⚠️ **Disclaimer**  
-> 🧩 Built as part of a company project (not deployed due to API pricing constraints).  
-> The logo watermark shown in the screenshots belongs to **Vidwath Innovative Solutions Pvt. Ltd.**  
-> This app was developed during my tenure with Vidwath for internal/demo purposes.  
-> The source code is not publicly available due to company confidentiality.
-> Source code is private and shared here only for **demonstration and portfolio purposes**.
+---
+
+> ⚠️ **Project Disclaimer**
+> 
+> - 🧩 Developed as part of an internal company project at **Vidwath Innovative Solutions Pvt. Ltd.**  
+> - ❌ Not deployed to production due to API pricing constraints.  
+> - 🖋️ Screenshots may include the **Vidwath** watermark or branding.  
+> - 🔒 Source code remains private and is showcased here **for demonstration and portfolio purposes only**.
+
 
 
 ### 🎯 Core Purpose
