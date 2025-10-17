@@ -131,15 +131,26 @@ A detailed breakdown per student showing:
 
 ---
 
-### 🧾 7. Export & Manage
-Teachers can:
-- Download printable OMR sheet templates  
-- Export class-level reports  
-- Delete outdated exams or results  
+### 🧾 7. Edit Answers  
+Teachers can review and modify individual student responses if scanning errors or disputes occur.  
+Each question entry shows:  
+- Question number  
+- Student’s marked option  
+- Correct answer  
+- Result (✅ / ❌)  
+- Editable input for manual correction  
 
 <p align="center">
   <img src="mockups/edit_answer.png" alt="Edit Answer" width="350"/>
 </p>
+
+---
+
+### 📤 8. Export & Manage  
+Teachers can:  
+- Download printable OMR sheet templates  
+- Export class-level reports (CSV or PDF)  
+- Delete outdated exams or results
 
 ---
 
