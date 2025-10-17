@@ -161,12 +161,14 @@ Teachers can:
 
 | Function | Description |
 |-----------|-------------|
-| Create OMR Sheet | Generates OMR templates based on teacher inputs |
-| Scan OMR Sheet | Recognizes bubbled answers and returns response data |
-| Result Calculation | Matches scanned responses with answer key |
-| Export Results | Generates downloadable CSV/PDF reports |
+| **Generate OMR Template** | Creates dynamic OMR sheets (.png and .omr files) based on teacher inputs such as exam name, number of questions, and columns. |
+| **Poll Generation Result** | Periodically checks the Aspose API for the completion status of the OMR template generation task. |
+| **Recognize Filled OMR Sheet** | Sends scanned OMR images to the Aspose Recognize API to detect marked bubbles and return encoded response data. |
+| **Poll Recognition Result** | Repeatedly polls the recognition endpoint until the OMR scan results are ready. |
+| **Save Recognition / Generation Files** | Decodes, processes, and saves generated or recognized files (OMR, PNG, CSV) to local storage using Hive. |
 
-All API interactions are performed securely via **Aspose.OMR Cloud SDK for Dart**.
+All API interactions are performed securely through the **Aspose.OMR Cloud SDK for Dart**, with final results stored locally for offline access and report generation.
+
 
 ---
 
