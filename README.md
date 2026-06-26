@@ -14,7 +14,7 @@
   <p align="center">
   📱 Flutter | ☁️ Aspose OMR SDK | 💾 Hive Storage | 🔍 Exam Evaluation System
     <br />
-    🌐 <a href="https://nk.xo.je" target="_blank"><b>nk.xo.je</b></a>
+    🌐 <a href="https://nithishkrishna.com" target="_blank"><b>nithishkrishna.com</b></a>
 </p>
 
 
