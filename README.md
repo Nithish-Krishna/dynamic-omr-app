@@ -7,9 +7,6 @@
 <br />
 <div align="center">
 
-  <!-- Optional placeholder icon (replace later with a neutral app icon if you wish) -->
-
-
   <h3 align="center">Dynamic OMR App</h3>
   <p align="center">
   📱 Flutter | ☁️ Aspose OMR SDK | 💾 Hive Storage | 🔍 Exam Evaluation System
@@ -52,7 +49,7 @@ It allows educators to **create OMR sheets, scan student responses, and generate
 
 ### 🎯 Core Purpose
 Teachers often spend hours evaluating answer sheets manually.  
-This app automates that process using **.OMR Cloud SDK**, allowing teachers to:
+This app automates that process using the **Aspose.OMR Cloud SDK**, allowing teachers to:
 - Create custom OMR sheets for exams  
 - Set answer keys for objective tests  
 - Scan filled sheets via camera  
@@ -65,7 +62,7 @@ This app automates that process using **.OMR Cloud SDK**, allowing teachers to:
 * **Framework:** Flutter  
 * **Language:** Dart  
 * **Local Storage:** Hive (for caching & offline persistence)  
-* **SDK:** .OMR Cloud SDK for Dart  
+* **SDK:** Aspose.OMR Cloud SDK for Dart  
 * **IDE:** Android Studio  
 * **Architecture:** REST API–driven, cloud OMR recognition  
 
@@ -173,14 +170,37 @@ Teachers can:
 | Function | Description |
 |-----------|-------------|
 | **Generate OMR Template** | Creates dynamic OMR sheets (.png and .omr files) based on teacher inputs such as exam name, number of questions, and columns. |
-| **Poll Generation Result** | Periodically checks the  API for the completion status of the OMR template generation task. |
-| **Recognize Filled OMR Sheet** | Sends scanned OMR images to the  Recognize API to detect marked bubbles and return encoded response data. |
+| **Poll Generation Result** | Periodically checks the API for the completion status of the OMR template generation task. |
+| **Recognize Filled OMR Sheet** | Sends scanned OMR images to the Recognize API to detect marked bubbles and return encoded response data. |
 | **Poll Recognition Result** | Repeatedly polls the recognition endpoint until the OMR scan results are ready. |
 | **Save Recognition / Generation Files** | Decodes, processes, and saves generated or recognized files (OMR, PNG, CSV) to local storage using Hive. |
 
 All API interactions are performed securely through the [**Aspose.OMR Cloud SDK for Dart**](https://github.com/aspose-omr-cloud/aspose-omr-cloud-dart), with final results stored locally for offline access and report generation.
 
+---
 
+## 🧩 Engineering Notes
+
+**Asynchronous recognition pipeline.** Neither template generation nor sheet
+recognition returns a result synchronously — both enqueue a job and hand back a
+task ID. The app therefore runs a `generate → poll → recognise → poll` cycle,
+holding UI state across each wait, surfacing progress to the teacher, and
+resuming cleanly when a poll times out or a response arrives out of order.
+
+**Offline-first result storage.** Every scan is written to Hive the moment it is
+decoded, keyed by exam and student. Classrooms lose connectivity mid-session, so
+results, answer keys and generated templates all stay readable and exportable
+with no network — only the recognition call itself needs one.
+
+**Correction as a first-class flow.** Optical recognition is never perfect on a
+hand-filled sheet, and a disputed mark is a real-world event rather than an edge
+case. Rather than hiding it, every recognised answer is editable after the fact,
+with the student's marked option and the correct answer shown side by side, and
+totals recomputed on save.
+
+**Built for non-technical users.** The whole flow targets teachers with minimal
+tech experience: one screen per step, no configuration, and export straight to
+CSV or PDF for sharing through whatever channel the school already uses.
 
 ---
 
@@ -211,11 +231,11 @@ All API interactions are performed securely through the [**Aspose.OMR Cloud SDK 
 ## 👨‍💻 Developer
 
 **👤 Nithish Krishna K S**  
-Junior Software Developer @ Vidwath  
-📍 Mysuru, Karnataka  
-📧 [nithish.krishna0101@gmail.com](mailto:nithish.krishna0101@gmail.com)  
-🌐 [nk.xo.je](https://nk.xo.je)  
-🔗 [LinkedIn](https://linkedin.com/in/nithishkrishna01)
+Software Developer @ Vidwath  
+📍 Bengaluru, Karnataka  
+📧 [work@nithishkrishna.com](mailto:work@nithishkrishna.com)  
+🌐 [nithishkrishna.com](https://nithishkrishna.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/nithishkrishna01/) · [GitHub](https://github.com/Nithish-Krishna)
 
 ---
 
